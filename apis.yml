@@ -1,8 +1,27 @@
 aid: velvet
 name: Velvet
-description: Velvet is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Velvet is a multimodal AI model R&D company (the "multimodal data lab")
+  based in San Francisco and backed by Y Combinator's Fall 2025 batch. It partners
+  with frontier AI labs and enterprises to build state-of-the-art video datasets and
+  evaluation frameworks that improve models' spatial reasoning and interactive, low-latency
+  capabilities. Velvet operates an invite-only platform for sourcing and contributing
+  multimodal training data, with contributor payouts via Stripe and Wise. It was founded
+  by Lucas Mantovani (CEO, formerly video data at Meta FAIR) and Lucas Tucker (CTO,
+  formerly Adobe). As of this enrichment pass the company publishes no public API,
+  developer documentation, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/velvet/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: approval
+  trial: false
+  try_now: false
+  public: false
+  label: Requires approval
+  confidence: medium
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://velvetlab.ai/logos/LOGO_UPSCALED.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,10 +30,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Multimodal AI
+- Machine Learning
+- Datasets
+- Model Evaluation
+- Video
+- World Models
+- Y Combinator
+common:
+- type: DomainSecurity
+  url: security/velvet-domain-security.yml
+- type: LLMsTxt
+  url: llms/velvet-llms.txt
+- type: Support
+  url: mailto:support@velvet.video
+- url: https://velvetlab.ai
+  type: Website
+- url: https://velvetlab.ai/privacy.html
+  type: PrivacyPolicy
+- url: https://velvetlab.ai/terms.html
+  type: TermsOfService
+- url: https://velvetlab.ai/dashboard
+  type: Login
 apis: []
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
