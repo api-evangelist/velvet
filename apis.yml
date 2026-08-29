@@ -10,6 +10,17 @@ description: Velvet is a multimodal AI model R&D company (the "multimodal data l
   formerly Adobe). As of this enrichment pass the company publishes no public API,
   developer documentation, or SDK.
 url: https://raw.githubusercontent.com/api-evangelist/velvet/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: approval
