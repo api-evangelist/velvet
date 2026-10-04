@@ -46,7 +46,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Multimodal AI
-- Machine-Learning
+- Machine Learning
 - Datasets
 - Model Evaluation
 - Video
@@ -62,6 +62,7 @@ tags_raw:
 - Video
 - World Models
 - Y Combinator
+- Machine-Learning
 common:
 - type: DomainSecurity
   url: security/velvet-domain-security.yml
